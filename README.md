@@ -10,5 +10,8 @@ An extremely simple javascript game made with the Phaser engine from my time in 
 JSON Data Analysis:
 A c++ program from my Data Structures class at SSU. Reads through the two given JSON files with fake student data in them and creates a map with all the student GPA's as the value and their ID's as the key to the map. This was an exercise in time complexity and using the right data structures as both lists had many thousands of students and we had to determine which students were in both semesters and create a matrix representing student's grade changes that went to both semesters. 
 
+Wordle Clone:
+A React based clone of the Wordle game from the NY Times website. It does not support a daily reset or fancy animations as it was a learning experience for Node and React. This project had its skeleton set up by Professor Ali Kooshesh of Sonoma State University and I fleshed out the UI and functionality.
+
 Word Game:
 A javascript word forming game written with partner William Armstrong for game development at SRJC. The controls are 1-5 to select a letter tile when it passes over the respective bubble, 0 to delete a tile out of your current bank, and the enter key to attempt to complete a word. This was made using open source assets.
