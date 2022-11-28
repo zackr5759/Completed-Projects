@@ -1,0 +1,206 @@
+.center{
+    left:25%;
+    right:25%;
+}
+
+.gradient{
+    background: rgb(241,221,190);
+    background: linear-gradient(90deg, rgba(241,221,190,1) 0%, rgba(255,255,255,0) 50%, rgba(241,221,190,1) 100%);
+}
+
+.sprite{
+    margin: auto;
+    height: 55%;
+    width: 55%;
+}
+
+.floor{ 
+    position: relative;
+    height: 12vh;
+    width: 14vw;
+    top: -13vh;
+    left: 2vh;
+    z-index: -1;
+
+}
+
+
+#battle1{
+    background-image: url("./battle/backgrounds/grass.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#battle2{
+    background-image: url("./battle/backgrounds/jungle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#battle3{
+    background-image: url("./battle/backgrounds/mountains.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#battle4{
+    background-image: url("./battle/backgrounds/mountains_bridge.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+#battle5{
+    background-image: url("./battle/backgrounds/volcano.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.hidden1{
+    height: 157px;
+    width: 259px;
+    z-index: 1;
+    font-size: 0;
+    border: none;
+    background: none;
+}
+
+.hidden2{
+    height: 157px;
+    width: 259px;
+    z-index: 1;
+    font-size: 0;
+    border: none;
+    background: none;
+}
+
+.hidden3{
+    height: 157px;
+    width: 259px;
+    z-index: 1;
+    font-size: 0;
+    border: none;
+    background: none;
+}
+
+
+.log{
+    background-color: white;
+    border-color: black;
+    border: solid;
+    height: 25vh;
+    width: 50vw;
+    position: fixed;
+    left:25%;
+    right:25%;
+    resize: 'vertical';
+    overflow: auto;
+    text-align: left;
+    margin: auto;
+}
+.enemy{
+    position: fixed;
+    right:0%;
+    top:8vh;
+}
+
+.currFighter{
+    position: fixed;
+    top:8vh;
+    left: 0%;
+}
+
+.log{
+    position: fixed;
+    top:40%;
+    left: 25%;
+    right: 25%;
+    text-align: left;
+    padding: 1px;
+    border: solid black 2px;
+    background-color: white;
+    color: black;
+    resize: 'vertical';
+    overflow: auto;
+    text-align: left;
+    margin: auto;
+
+}
+.logButtons{
+    position: fixed;
+    top:35%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+}
+
+.selector{
+    position: fixed;
+    top:20%;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    color:black;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.infoBar{
+    position: fixed;
+    top:8vh;
+    left: 25%;
+    right: 25%;
+    text-align: center;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.party{
+    margin: auto;
+    position:fixed;
+    bottom:10px;
+    left:25%;
+    right:25%;
+    z-index: 0;
+
+}
+
+.battleButton{
+    text-align: center;
+    position:fixed;
+    bottom:30vh;
+    left:25%;
+    right:25%;
+}
+
+.start{
+    text-align: center;
+    position:fixed;
+    top:20vh;
+    left:25%;
+    right:25%;
+}
+
+.test{
+    border: red 10px;
+}
+.shop{
+    justify-content: center;
+    margin: auto;
+    position:fixed;
+    top:65px;
+    left:25%;
+    right:25%;
+
+}
